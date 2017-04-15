@@ -26,6 +26,7 @@ int main(int argc, const char * argv[]) {
 }
 
 /*
+ 
  __block int a = 10;
  int (^inc)(void) = ^int(void) {
  //NSLog(@"%@", @(a));
@@ -37,6 +38,9 @@ int main(int argc, const char * argv[]) {
 */
 
 /*
+ {
+ // ivar obyavit i check s photo
+ }
  @interface 
  {
     @property nonatom, copy NSString *str;
